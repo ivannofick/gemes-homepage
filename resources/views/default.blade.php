@@ -10,6 +10,14 @@
     <title>Gemes</title>
   </head>
   <body>
-    @yield('contents')
+    <!-- Header -->
+    <header class="bg-blue-500 p-4">
+      <h1 class="text-white text-2xl text-center">Your Mobile App</h1>
+    </header>
+    <!-- Content -->
+    <main class="p-4">
+      @yield('contents')
+    </main>
+    @include('atoms.menu')
   </body>
 </html>
