@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ asset('/assets/css/custom-color.css') }}">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="{{ asset('/assets/js/flwbt.1.8.1.min.js') }}"></script>
+    {{-- <script src="{{ asset('/assets/js/flwbt.1.8.1.min.js') }}"></script> --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
@@ -14,7 +14,7 @@
   </head>
   <body class="dark:bg-zinc-800">
     @include('atoms.headers')
-    <main class="p-4">
+    <main class="p-4 mb-20">
       @yield('contents')
     </main>
     @include('atoms.menu')
