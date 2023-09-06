@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ asset('/assets/css/custom-color.css') }}">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="{{ asset('/assets/js/flwbt.1.8.1.min.js') }}"></script>
+
 
     <title>Gemes</title>
   </head>
