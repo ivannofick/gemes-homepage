@@ -1,5 +1,9 @@
 @extends('default')
 @section('contents')
+<style>
+    .swiper-slide { width: 80% !important; }
+</style>
+    <div class="swiper" id="mySwiper1">
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -20,14 +24,11 @@
     </div>
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 2,
+            slidesPerView: "auto",
             spaceBetween: 30,
             initialSlide: 1,
             centeredSlides: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
         });
+
     </script>
 @endsection
