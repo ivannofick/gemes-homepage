@@ -3,7 +3,7 @@
         <h1 class="text-white text-lg font-semibold">Nama Aplikasi Anda</h1>
     </div>
 
-    <div class="svg-yellow">
-        <img class="h-8 w-8" alt="lonceng" src="{{ asset('/assets/img/icon/bell-icon.svg') }}">
+    <div class="text-gray-500 text-[24px]">
+        <i class="fa fa-bell-o" aria-hidden="true"></i>
     </div>
 </div>

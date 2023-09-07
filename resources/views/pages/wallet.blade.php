@@ -10,8 +10,8 @@
 <div class="w-full p-6 earn-card rounded-lg mb-6">
     <div class="flex items-center justify-between">
         <div>
-            <div class="text-gray-200 font-semibold">Your Points</div>
-            <div class="text-white text-[34px] font-extrabold">1240</div>
+            <div class="text-gray-200 font-semibold">Total Point</div>
+            <div class="text-white text-[34px] font-extrabold">1100</div>
         </div>
 
         <a class="bg-white px-3 py-1.5 rounded-[20px]">
@@ -19,16 +19,22 @@
         </a>
     </div>
     <div class="backdrop-blur-2xl bg-opacity-20 bg-white p-2.5 rounded-md w-full">
-        <p class="font-medium text-sm text-white">Redeem your points to get amazing reward</p>
+        <p class="font-medium text-sm text-white">You can redeem point min 10000</p>
     </div>
 </div>
-<div class="w-full mt-4">
+<div class="w-full md:w-[768px] mt-4">
     <div class="text-gray-200 text-lg font-semibold leading-tight mb-4">Choose Plan</div>
-    <div class="grid grid-rows-2 grid-flow-col gap-4">
-        <div class="col-span-2 earn-card p-6">01</div>
-        <div class="col-span-2 earn-card p-6">02</div>
-        <div class="col-span-2 earn-card p-6">03</div>
-        <div class="col-span-2 earn-card p-6">04</div>
+    <div class="flex">
+        <div class="w-1/2 bg-yellow-400 p-4 mr-2 mb-2 earn-card">
+            <div class="text-gray-200 font-semibold text-lg"><i class="fa fa-money" aria-hidden="true"></i></div>
+            <div class="text-gray-200 font-semibold">Can Redeem</div>
+            <div class="text-white text-[34px] font-extrabold">100</div>
+        </div>
+        <div class="w-1/2 bg-red-400 p-4 mb-2 earn-card">
+            <div class="text-gray-200 font-semibold text-lg"><i class="fa fa-usd" aria-hidden="true"></i></div>
+            <div class="text-gray-200 font-semibold">Point</div>
+            <div class="text-white text-[34px] font-extrabold">1000</div>
+        </div>
     </div>
 
 </div>
