@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,12 +12,19 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <title>Gemes</title>
-  </head>
-  <body class="dark:bg-zinc-800">
-    @include('atoms.headers')
-    <main class="p-4 mb-20">
-      @yield('contents')
-    </main>
-    @include('atoms.menu')
-  </body>
+</head>
+
+<body class="dark:bg-zinc-800">
+  <div class="flex item-center justify-center">
+    <div class="w-screen md:w-[768px]">
+        @include('atoms.headers')
+        <main class="p-4 mb-20">
+            @yield('contents')
+        </main>
+        @include('atoms.menu')
+    </div>
+
+  </div>
+</body>
+
 </html>
