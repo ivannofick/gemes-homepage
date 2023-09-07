@@ -15,9 +15,9 @@
     <title>Gemes</title>
 </head>
 
-<body class="dark:bg-zinc-800">
+<body>
   <div class="flex item-center justify-center">
-    <div class="w-screen md:w-[768px]">
+    <div class="w-screen h-screen md:w-[768px] bg-gradient-to-b from-stone-900 to-zinc-800">
         @include('atoms.headers')
         <main class="p-4 mb-20">
             @yield('contents')
