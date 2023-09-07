@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/wallet', function () {
     return view('pages.wallet');
 });
+
+Route::get('/users', function () {
+    return view('pages.users');
+});
