@@ -4,6 +4,6 @@
     </div>
 
     <div class="text-gray-500 text-[24px]">
-        <i class="fa fa-bell-o" aria-hidden="true"></i>
+        <i class="far fa-bell"></i>
     </div>
 </div>
